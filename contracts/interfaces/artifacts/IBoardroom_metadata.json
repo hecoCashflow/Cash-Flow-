@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "allocateSeigniorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "allocateSeigniorageBond",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/interfaces/IBoardroom.sol": "IBoardroom"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/interfaces/IBoardroom.sol": {
+			"keccak256": "0xa5471c4ff89cd70661f298d006b5ba18bb6992a6acc7b2f1f6d10f50c8c8e673",
+			"urls": [
+				"bzz-raw://f22d51461d3f7cf51cf25d1e0cf3e77e63bed3e83b64b6c929ca48cee0e04786",
+				"dweb:/ipfs/QmaDtfq5aydpbDCR2v5aa3xxGK4XeYm3N517AC26J5Ecib"
+			]
+		}
+	},
+	"version": 1
+}
